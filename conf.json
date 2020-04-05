@@ -1,0 +1,209 @@
+{
+  "germany": {
+    "deliverySameCountry": {
+      "false": 3.5,
+      "true": 2
+    },
+    "exciseDuties": {
+      "still": [],
+      "sparkling": [
+        {
+          "min": 0,
+          "max": 5.99,
+          "val": 51
+        },
+        {
+          "min": 6,
+          "max": 100,
+          "val": 136
+        }
+      ]
+    },
+    "stripeCommission": 0.5,
+    "vat": 19
+  },
+  "netherlands": {
+    "deliverySameCountry": {
+      "false": 3.5,
+      "true": 0
+    },
+    "exciseDuties": {
+      "still": [
+        {
+          "min": 0,
+          "max": 8.5,
+          "val": 44.24
+        },
+        {
+          "min": 8.51,
+          "max": 100,
+          "val": 88.3
+        }
+      ],
+      "sparkling": [
+        {
+          "min": 0,
+          "max": 8.5,
+          "val": 44.24
+        },
+        {
+          "min": 8.51,
+          "max": 100,
+          "val": 88.3
+        }
+      ]
+    },
+    "stripeCommission": 0.5,
+    "vat": 21
+  },
+  "denmark": {
+    "deliverySameCountry": {
+      "false": 3.5,
+      "true": 0
+    },
+    "exciseDuties": {
+      "still": [
+        {
+          "min": 1.2,
+          "max": 6,
+          "val": 71.6231
+        },
+        {
+          "min": 6.1,
+          "max": 15,
+          "val": 155.7198
+        },
+        {
+          "min": 15.1,
+          "max": 22,
+          "val": 208.5653
+        }
+      ],
+      "sparkling": [
+        {
+          "min": 1.2,
+          "max": 6,
+          "val": 116.5551
+        },
+        {
+          "min": 6.1,
+          "max": 15,
+          "val": 200.6519
+        },
+        {
+          "min": 15.1,
+          "max": 22,
+          "val": 253.4973
+        }
+      ]
+    },
+    "stripeCommission": 0.5,
+    "vat": 25
+  },
+  "belgium": {
+    "deliverySameCountry": {
+      "false": 3.5,
+      "true": 0
+    },
+    "exciseDuties": {
+      "still": [
+        {
+          "min": 0,
+          "max": 8.5,
+          "val": 23.9119
+        },
+        {
+          "min": 8.51,
+          "max": 100,
+          "val": 74.9086
+        }
+      ],
+      "sparkling": [
+        {
+          "min": 0,
+          "max": 8.5,
+          "val": 23.9119
+        },
+        {
+          "min": 8.51,
+          "max": 100,
+          "val": 256.3223
+        }
+      ]
+    },
+    "stripeCommission": 0.5,
+    "vat": 21
+  },
+  "france": {
+    "deliverySameCountry": {
+      "false": 3.5,
+      "true": 2
+    },
+    "exciseDuties": {
+      "still": [
+        {
+          "min": 0,
+          "max": 100,
+          "val": 3.82
+        }
+      ],
+      "sparkling": [
+        {
+          "min": 0,
+          "max": 100,
+          "val": 9.44
+        }
+      ]
+    },
+    "stripeCommission": 0.5,
+    "vat": 20
+  },
+  "spain": {
+    "deliverySameCountry": {
+      "false": 3.5,
+      "true": 2
+    },
+    "exciseDuties": {
+      "still": [
+        {
+          "min": 0,
+          "max": 100,
+          "val": 0
+        }
+      ],
+      "sparkling": [
+        {
+          "min": 0,
+          "max": 100,
+          "val": 0
+        }
+      ]
+    },
+    "stripeCommission": 0.5,
+    "vat": 21
+  },
+  "italy": {
+    "deliverySameCountry": {
+      "false": 3.5,
+      "true": 2
+    },
+    "exciseDuties": {
+      "still": [
+        {
+          "min": 0,
+          "max": 100,
+          "val": 0
+        }
+      ],
+      "sparkling": [
+        {
+          "min": 0,
+          "max": 100,
+          "val": 0
+        }
+      ]
+    },
+    "stripeCommission": 0.5,
+    "vat": 22
+  }
+}
